@@ -3,6 +3,7 @@ const placeElement = document.getElementById("card-place");
 const opactElement = document.getElementById("contact-opact1");
 const techElement = document.getElementById("tech");
 const homeElement = document.getElementById("ihome");
+const home2Element = document.getElementById("ihome2");
 
 function linkPages(name1){
 
@@ -76,6 +77,7 @@ function techList(name1){
 }
  
 linkPages(homeElement);
+linkPages(home2Element);
 techList(techElement);
 
 
